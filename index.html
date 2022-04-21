@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/index_style.css"/>
+</head>
+<body>
+
+<div class="sidenav" id="sidenav">
+   <div class=logo>
+   <img src="css/logo.36f34a9f.svg" class="logo" alt="logo" style="width: 30px;"/>
+   <h1 class="vuexy">Vuexy</h1>
+   <a href="#" class="dotCircle" onclick="closeNav()"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></a>
+   </div>
+
+   <button class="dropdown dashboard"><i class="fa fa-home dash" aria-hidden="true"></i>Dashboards 
+   <h1 class="two">2</h1>
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+  </button> 
+   <div class="dropdown-container">
+    <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>eCommerce</a>
+    <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Analytics</a>
+  </div>
+  <h1 class="appPage">App & Page</h1>
+  <a href="#Email" class="app"><i class="fa fa-envelope-o dash" aria-hidden="true"></i>Email</a>
+  <a href="#Chat"class="app"><i class="fa fa-comment-o dash" aria-hidden="true"></i>Chat</a>
+  <a href="#Todo" class="app"><i class="fa fa-check-square-o dash" aria-hidden="true"></i>Todo</a>
+  <a href="#Calender" class="app"><i class="fa fa-calendar-o dash" aria-hidden="true"></i>Calender</a>
+  <button class="dropdown"><i class="fa fa-file-text-o dash" aria-hidden="true"></i>Invoice 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#" class="app" ><i class="fa fa-circle-o" aria-hidden="true"></i>List</a>
+    <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Preview</a>
+    <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Edit</a>
+     <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Add</a>
+  </div>
+  <button class="dropdown"><i class="fa fa-shopping-cart dash" aria-hidden="true"></i>eCommerce
+    <i class="fa fa-caret-down"></i>
+  </button>
+<div class="dropdown-container "id="commerce">
+   <a href="#" class="app active"><i class="fa fa-circle-o" aria-hidden="true"></i>Shop</a>
+    <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Details</a>
+  <a href="#"class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Wishlist</a>
+  <a href="#" class="app"><i class="fa fa-circle-o" aria-hidden="true"></i>Checkout</a>
+  </div>
+
+</div>
+
+<div class="main" id="main">
+
+  <button id="butup" onclick="topFunction()">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+   <button id="buyNw" onclick="buyFunction()">Buy Now</button> 
+
+  <div class="topbar">
+    <div class="topbar-container">
+    <div class="topbar-left">
+       <a href="#" class="topLeft"><i class="fa fa-calendar-o " aria-hidden="true"></i></a>
+       <a href="#" class="topLeft"><i class="fa fa-comment-o" aria-hidden="true"></i></a>
+       <a href="#" class="topLeft"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+       <a href="#" class="topLeft"><i class="fa fa-check-square-o" aria-hidden="true"></i></a>
+       <a href="#" class="topLeft"><i class="fa fa-star-o" style="color: gold;" aria-hidden="true"></i></a>
+    </div>
+   <div class="topbar-right">
+     <a href="#" class="dropdown topRight" id="flag">
+     <img src="css/download.png" style="width: 30px; height: 20px;"/>
+     <span>English</span></a>
+     <div class="dropdown-container language">
+      <a href="#"class="flag" ><img src="css/download.png" style="width: 30px; height: 20;" class="imgFlag"/>English</a>
+       <a href="#" class="flag" ><img src="css/download2.png" style="width: 30px; height: 20;" class="imgFlag"/>French</a>
+     <a href="#" class="flag"><img src="css/download3.png" style="width: 30px; height: 20;" class="imgFlag"/>German</a>
+     <a href="#"class="flag" ><img src="css/download4.png" style="width: 30px; height: 20;" class="imgFlag"/>Portuguses</a>
+     </div>
+    <a href="#" class="topRight"><i class="fa fa-moon-o" aria-hidden="true"></i></a>
+    <a href="#" class="topRight"><i class="fa fa-search" aria-hidden="true"></i></a>
+    <a href="#" class="topRight" id="five"><i class="fa fa-shopping-cart"  aria-hidden="true"></i></a>
+    <a href="#" class="topRight" id="six"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+    <a href="#" class="topRight">
+    <div class="johnDoe">
+      <p class="john">John Doe <img src="css/13-small.d796bffd.png"style="width: 40px; height: 40px;" class="johnImg" /></p>
+      
+      <span class="admin">admin</span>
+    </div>
+  </a>
+      </div>
+    </div>
+ </div>
+
+
+ <section>
+  <div class="shop">
+     <div class="shopLeft">
+     <h1 class="shophead1">Shop</h1>
+     <a href=""><i class="fa fa-home" aria-hidden="true"></i></a>
+     <span>></span>
+     <a href="#" class="Ecommerce">Ecommerce</a>
+     <span>></span>
+     <h1 class="shophead2">shop</h1>
+     </div>
+    
+       
+      <div class="shopRight">
+         <a  class="dropdown" id="setting"><i class="fa fa-cog" aria-hidden="true"></i></a>
+         <div id="myDropdown" class="dropdown-container shopSetting">
+           <a href="#" class="set"><i class="fa fa-check-square-o" aria-hidden="true"></i>Todo</a>
+           <a href="#"class="set"><i class="fa fa-comment-o" aria-hidden="true"></i>Chat</a>
+           <a href="#"class="set"><i class="fa fa-envelope-o" aria-hidden="true"></i>Message</a>
+           <a href="#"class="set"><i class="fa fa-calendar-o " aria-hidden="true"></i>Calender</a>
+          </div>
+         </div>
+ </div>
+</section>
+
+<section>
+<div class="filter">
+  <div class="filterLeft">
+    <h1 class="filters">Filters</h1>
+  </div>
+  <div class="filterCenter">
+    <h1 class="found">27 results found</h1>
+  </div>
+  <div class="filterRight">
+    <a href="#" class="featured dropdown">Featured<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <div id="myDropdown" class="dropdown-container fearturedMenu">
+      <a href="#" class="feature">Featured</a>
+      <a href="#"class="feature">Lowest</a>
+      <a href="#"class="feature">Hightest</a>
+     </div>
+
+    <a href="#" class="grid"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+    <a href="#" class="list"><i class="fa fa-list" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+</section>
+
+<section>
+  <div class="filter">
+    <div class="filter-container">
+    <div class="search">
+    <div id="multiRange" name="multiRange">
+    <h3 class="multiRange">MultiRange</h3>
+    <input type="radio" name="range" value="all" id="r1" checked>
+   <label class="range">all</label><br>
+   <input type="radio" name="range" value="<=$10"id="r2">
+   <label class="range">&#60=$10</label><br>
+   <input type="radio" name="range" value="$10-$100" id="r3">
+   <label class="range">$10-$100</label><br>
+   <input type="radio" name="range" value="$100-$500" id="r4">
+   <label class="range">$100-$500</label><br>
+   <input type="radio" name="range" value=">=$500" id="r5">
+   <label class="range">&#62=$500</label><br>
+    </div>
+    <div class="Price-Range">
+    <h3 class="priceRange">Price Range</h3>
+     <input type="range" id="vol" name="vol" min="0" max="100">
+    </div>
+    <div class="Category" id="category">
+    <h3 class="Categories">Categories</h3>
+    <input type="radio" name="Category" value="appliances">
+   <label class="range">Appliances</label><br>
+   <input type="radio" name="Category" value="audio">
+   <label class="range">Audio</label><br>
+   <input type="radio" name="Category" value="cameras">
+   <label class="range">Cameras & Camcorders</label><br>
+   <input type="radio" name="Category" value="gps">
+   <label class="range">Car Electronics & GPS</label><br>
+   <input type="radio" name="Category" value="phone">
+   <label class="range">Cell Phones</label><br>
+   <input type="radio" name="Category" value="computer">
+   <label class="range">Computers & Tablets</label><br>
+   <input type="radio" name="Category" value="fitness">
+   <label class="range">Health, Fitness & Beauty</label><br>
+   <input type="radio" name="Category" value="supplies">
+   <label class="range">Office & School Supplies</label><br>
+   <input type="radio" name="Category" value="tv">
+   <label class="range">TV & Home Theater</label><br>
+   <input type="radio" name="Category" value="games">
+   <label class="range">Video Games</label><br>
+    </div>
+    <div class="Brand" id="brand">
+    <h3 class="Brands">Brands</h3>
+    <input type="radio" name="Brands" value="insignia">
+   <label class="range">Insignia™</label><br>
+   <input type="radio" name="Brands" value="samsung">
+   <label class="range">Samsung</label><br>
+   <input type="radio" name="Brands" value="metra">
+   <label class="range">Metra</label><br>
+   <input type="radio" name="Brands" value="hp">
+   <label class="range">HP</label><br>
+   <input type="radio" name="Brands" value="apple">
+   <label class="range">Apple</label><br>
+   <input type="radio" name="Brands" value="ge">
+   <label class="range">GE</label><br>
+   <input type="radio" name="Brands" value="sony">
+   <label class="range">Sony</label><br>
+   <input type="radio" name="Brands" value="incipio">
+   <label class="range">Incipio</label><br>
+   <input type="radio" name="Brands" value="kitchenAid">
+   <label class="range">KitchenAid</label><br>
+   <input type="radio" name="Brands" value="whirlpool">
+   <label class="range">Whirlpool</label><br>
+    </div>
+   <div class="Rating">
+     <h3 class="Ratings">Ratings</h3>
+     <a href="" class="rating" value="4"><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i> & up</a>
+     <a href="" class="rating" value="3"><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i> & up</a>
+     <a href="" class="rating" value="2"><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i> & up</a>
+     <a href="" class="rating" value="1"><i class="fa fa-star checked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i><i class="fa fa-star unchecked" aria-hidden="true"></i> & up</a>
+   </div>
+    
+    
+    </div>
+    <div class="result">
+      <div class="result-container">
+       <input type="search" id="mySearch" placeholder="Search the Products...">
+       <div id="Postsrow" class="row">
+         <div class="card">
+           <div class="card-container">
+           <img src="" class="productImg" alt="product"/>
+           <h3 class="productPrice">Price</h3>
+           <a href="" class="productName">product name</a>
+           <p class="discription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur officiis mollitia nobis, eaque incidunt, blanditiis magni necessitatibus odio dolorem fugit quasi nulla reiciendis corrupti asperiores nisi praesentium, debitis atque.</p>
+         </div>
+           <a href="" class="wishlist">wishlist</a>
+           <a href="" class="cart">View in cart</a>
+         </div>
+ 
+ 
+       </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+ 
+
+</section>
+
+  </div>
+
+
+
+
+  
+</div>
+
+
+<script type ="text/javascript" src="js/index.js"  charset="utf-8"></script>
+</body>
+</html>
